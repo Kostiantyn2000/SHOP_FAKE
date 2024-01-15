@@ -4,10 +4,12 @@ import { Space } from "antd";
 
 export default function Order() {
   return (
-    <Space direction="vertical" style={{ padding: "20px" }}>
-      <h2>Order</h2>
-      <OrderForm />
-      <OrderProductList />
-    </Space>
+    <div>
+      <Space direction="vertical" style={{ padding: "20px" }}>
+        <h2>Order</h2>
+        <OrderForm />
+        <OrderProductList />
+      </Space>
+    </div>
   );
 }
