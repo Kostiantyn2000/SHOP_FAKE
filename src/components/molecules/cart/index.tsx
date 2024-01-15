@@ -60,7 +60,7 @@ export const Cart: React.FC<CartProps> = ({ visible, onClose }) => {
           </div>
         ))}
       </Space>
-      <Link href={`/${Routers.Order}`}>
+      <Link href={`${Routers.Order}`}>
         <Button onClick={onClose} style={{ marginTop: 15 }} type="primary">
           Make an order
         </Button>
