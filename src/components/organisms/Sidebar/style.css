@@ -1,0 +1,18 @@
+.category-wrapper {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-top: 15px;
+}
+
+.category-item {
+  color: rgb(44, 52, 52);
+}
+
+.category-item:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.category-item:hover {
+  color: rgb(137, 170, 184);
+}
